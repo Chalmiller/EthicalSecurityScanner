@@ -153,13 +153,13 @@ def convert_to_excel():
   
 if __name__ == '__main__': 
     
-    env = Environment(loader=FileSystemLoader('.'))
-    template = env.get_template("report_template.html")
-    template_vars = {"title" : "Sales Funnel Report - National",
-                 "national_pivot_table": sales_report.to_html()}
-    html_out = template.render(template_vars)
+    # env = Environment(loader=FileSystemLoader('.'))
+    # template = env.get_template("report_template.html")
+    # template_vars = {"title" : "Static File Analysis - Report",
+    #              "bandit_report": bandit_report.to_html()}
+    # html_out = template.render(template_vars)
   
     warnings, suggestions, packages, shells = clean_data() 
   
-    # convert_to_excel() 
-    parse_json()
+    convert_to_excel() 
+    # parse_json()
