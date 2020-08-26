@@ -2,7 +2,7 @@
 
 ### Objective:
     Provide a suite of tools for:
-        -  OS hardening and compliance reports
+        - OS hardening and compliance reports
         - Web application penetration testing and general vulnerability scanning
         - Static code security analyzer
 
