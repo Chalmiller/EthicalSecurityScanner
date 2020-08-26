@@ -7,7 +7,10 @@
         - Static code security analyzer
 
 ### Directions for use
-    - N/A
+    - Installations:
+        - Pandas: `pip3 install pandas` 
+        - On MacOS `brew install lynis`
+        - `pip3 install bandit`
 
 ### Future Work
     - Dockerize the tool for ease of deployment
