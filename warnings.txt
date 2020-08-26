@@ -1,0 +1,2 @@
+NETW-2705|Couldn't find 2 responsive nameservers|-|-|
+DBS-1820|MongoDB instance allows any user to access databases|-|-|

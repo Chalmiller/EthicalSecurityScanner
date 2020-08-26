@@ -10,7 +10,7 @@ function generate_files () {
     printf "Generating $2 from script execution... \n"
     sudo cat /var/log/lynis-report.dat | grep $1 | sed -e "s/$1\[\]\=//g"
     sudo cat /var/log/lynis-report.dat | grep $1 | sed -e "s/$1\[\]\=//g" | cat > $2.txt 
-    printf "To access the $2 output, please cite the text file in "$pwd" \n"
+    printf "To access the $2 output, please cite the text file in your current working directory... \n"
 }
 
 function change_permissions () {
